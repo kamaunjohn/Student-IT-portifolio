@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>John Kamau | IT Portfolio</title>
+
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!--connect js-->
+    <script src="script.js" defer></script>
+    
+
+
+</head>
+
+<body>
+
+    <marquee><b>welocome! to kamteck tecknologies for digital solutions queery for more information contact:0116745669 or email:njerikamau@gmail.com</b></marquee>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">John<span>Kamau</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle" type="button">
+                🌙 Dark Mode
+            </button>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+
+            <h1>Hello, I'm <span>John Kamau</span></h1>
+
+            <h2>IT Student | Web Developer</h2>
+
+            <p>
+                I am an Information Technology student at Kirinyaga University
+                passionate about web development, programming, and technology.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="profile-container">
+    <img src="profile.jpg.jpeg"width="100px" height="100px"
+         alt="My Profile Photo"
+         class="profile-photo">
+
+         
+
+    <h2>John Kamau</h2>
+    <p>IT Student | Web Developer</p>
+</div>
+
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-card">
+            <p>
+                My name is John Kamau, an Information Technology student
+                at Kirinyaga University. I am interested in computer
+                programming, web development, database management, and
+                solving real-world problems through technology.
+            </p>
+
+            <p>
+                My goal is to develop practical technical skills and create
+                useful, reliable, and user-friendly digital solutions.
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="section-title">My <span>Education</span></h2>
+
+        <div class="card">
+            <h3>Kirinyaga University</h3>
+            <p>Information Technology</p>
+            <p>Current Student</p>
+            <p>
+                Studying computer systems, programming, databases,
+                networking, and other IT-related subjects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating the structure of web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Styling websites and creating responsive layouts.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Adding interactivity and functionality to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Learning programming and problem-solving techniques.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Database Management</h3>
+                <p>Working with data and database concepts.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Computer Networking</h3>
+                <p>Understanding computer networks and communication.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="section-title">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A personal website developed using HTML, CSS,
+                    and JavaScript to showcase my profile and skills.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Registration System</h3>
+                <p>
+                    A sample web registration interface for collecting
+                    user information and demonstrating form validation.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Student Management System</h3>
+                <p>
+                    A proposed application for organizing student
+                    information and academic records.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <div class="contact-container">
+
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+
+                <p>
+                    Feel free to contact me concerning technology,
+                    programming, collaboration, or projects.
+                </p>
+
+                <p><strong>Institution:</strong> Kirinyaga University</p>
+                <p><strong>Field:</strong> Information Technology</p>
+            </div>
+
+            <form id="contact-form">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    placeholder="Write your message..."
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <p id="form-status" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            &copy; <span id="year"></span> John Kamau.
+            All Rights Reserved.
+        </p>
+
+        <p>Information Technology | Kirinyaga University</p>
+    </footer>
+
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
